@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "leonardoavs",
+    "baseName": "FacturaElectronicaCostaRica",
+    "packageName": "com.lavssoft.electronic.invoice",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "pt-pt",
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.10.2",
+    "packageFolder": "com/lavssoft/electronic/invoice",
+    "jwtSecretKey": "7b10f9a3d0f52e2697c31c7feb0b253b552e16ad",
+    "jhiPrefix": "jhi"
+  }
+}
